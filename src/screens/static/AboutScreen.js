@@ -20,7 +20,7 @@ export function AboutScreen() {
                 <li>built in markdown to html converter for previews</li>
                 <li>built in markdown to html exporter for file generation</li>
                 <li>
-                  built in support for editing already exported markdonw-html
+                  built in support for editing already exported markdown-html
                   (that are generated from the same tool)
                 </li>
               </ul>

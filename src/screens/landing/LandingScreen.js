@@ -15,14 +15,12 @@ export function LandingScreen() {
                   <h1 className="is-size-1">Technical Response</h1>
                 </Link>
               </div>
-            </div>
-            {/* <div className="column has-text-centered">
               <div className="box">
-                <Link to="/app/vision-response">
-                  <h1 className="is-size-1">Vision Response</h1>
+                <Link to="/app/alignment-response">
+                  <h1 className="is-size-1">V & A Response</h1>
                 </Link>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

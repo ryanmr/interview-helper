@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { LandingScreen } from "./screens/landing/LandingScreen";
 import { TechnicalResponseScreen } from "./screens/tech-response/TechnicalResponseScreen";
+import { AlignmentResponseScreen } from "./screens/alignnment-response/AlignmentResponseScreen";
 import { AboutScreen } from "./screens/static/AboutScreen";
 
 function App() {
@@ -30,6 +31,10 @@ function AppRouter() {
               <Route
                 path="/app/technical-response"
                 component={TechnicalResponseScreen}
+              />
+              <Route
+                path="/app/alignment-response"
+                component={AlignmentResponseScreen}
               />
             </Switch>
           </>
